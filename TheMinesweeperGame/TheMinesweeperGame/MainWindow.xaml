@@ -1,0 +1,11 @@
+﻿<Window x:Class="MinesweeperApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Minesweeper Setup" Height="200" Width="300">
+    <StackPanel Margin="10">
+        <TextBlock Text="Enter field size:"/>
+        <TextBox x:Name="sizeXInput" Margin="0,5" />
+        <TextBox x:Name="sizeYInput" Margin="0,5" />
+        <Button Content="Start Game" Click="StartGame_Click"/>
+    </StackPanel>
+</Window>
